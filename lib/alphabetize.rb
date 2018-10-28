@@ -6,5 +6,5 @@ def alphabetize(arr)
   arr.each do |string|
     new_array.push(string.split(""))
   end
-  
+  new_array
 end
