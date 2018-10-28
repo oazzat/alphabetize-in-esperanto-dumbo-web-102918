@@ -8,8 +8,9 @@ def alphabetize(arr)
   end
   
   new_array.sort_by do |item|
-  new_array.each do |letter|
+  item.each do |letter|
   letter = ESPERANTO_ALPHABET.index(letter)
 end 
+end
 
 end
