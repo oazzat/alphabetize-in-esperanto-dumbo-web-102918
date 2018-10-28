@@ -6,7 +6,7 @@ def alphabetize(arr)
   arr.sort_by do |item|
     
   item.collect do |string|
-    string.split("")
+    string.split("").collect do |
   
   item.collect do |letter|
   ESPERANTO_ALPHABET.index(letter)
