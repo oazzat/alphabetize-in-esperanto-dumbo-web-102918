@@ -1,3 +1,4 @@
+require "pry"
 ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
 def alphabetize(arr)
@@ -10,6 +11,7 @@ def alphabetize(arr)
   new_array.sort_by do |item|
   item.collect do |letter|
   ESPERANTO_ALPHABET.index(letter)
+  binding.pry
 end 
 end
 
