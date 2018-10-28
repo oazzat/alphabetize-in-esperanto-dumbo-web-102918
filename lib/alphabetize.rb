@@ -7,6 +7,6 @@ def alphabetize(arr)
     new_array.push(string.split(""))
   end
   
-  new_array.sort_by
+  new_array.sort_by { 
   
 end
