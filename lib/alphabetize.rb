@@ -10,7 +10,7 @@ def alphabetize(arr)
   
       ESPERANTO_ALPHABET.index(letter)
  end
-end 
+
 end
 new_array
 
