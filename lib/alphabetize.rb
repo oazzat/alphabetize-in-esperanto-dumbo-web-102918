@@ -6,11 +6,11 @@ def alphabetize(arr)
   arr.sort_by do |item|
     
   item.collect do |string|
-    string.split("").collect do |
+    string.split("").collect do |letter|
   
-  item.collect do |letter|
-  ESPERANTO_ALPHABET.index(letter)
- 
+  
+      ESPERANTO_ALPHABET.index(letter)
+ end
 end 
 end
 new_array
