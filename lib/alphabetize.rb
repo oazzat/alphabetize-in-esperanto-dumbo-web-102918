@@ -5,8 +5,8 @@ def alphabetize(arr)
   new_array = []
   arr.sort_by do |item|
     
-  item.each do |string|
-    new_array.push(string.split(""))
+  item.collect do |string|
+    string.split("")
   end
   
   item.collect do |letter|
