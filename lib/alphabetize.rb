@@ -1,3 +1,8 @@
 def alphabetize(arr)
-  # code here
+  new_array = []
+  
+  arr.each do |word|
+    if 
+  end
+  
 end
